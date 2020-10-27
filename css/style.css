@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.h1-our-serv{
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.serv-li {
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 80%;
+
+}
+
+.serv {
+  padding-top: 80px;
+  padding-left: 20px;
+	width: 30%;
+	text-align: center;
+}
+
+
+.h3-serv {
+  padding-top: 20px;
+	padding-bottom: 30px;
+	
+}
+
+.fas{
+	font-size : 40px !important;
+	color:#e34f43;
+	
+
+} 
+
+.far{
+	font-size: 40px !important;
+	color:#e34f43;
+	
+
+}
