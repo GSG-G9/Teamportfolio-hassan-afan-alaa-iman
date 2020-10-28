@@ -136,7 +136,7 @@ padding-bottom: 45px;
 #contact-us-section{
   background-color: black;
   width: 100%;
-  height:500px;
+  height:350px;
   display: flex;
   flex-direction: row-reverse;
 
@@ -144,18 +144,17 @@ padding-bottom: 45px;
 }
 /*start of aside style */
 aside{
-  background-color: firebrick;
   width:50%;
-  height:500px;
-  text-align: center;
+
+  /* height:500px; */
 }
 #aside-contact-form{
   padding-top: 40px;
   color: white;
   width:400px;
-  height:400px;
-  background-color: red;
-  margin: auto;
+  height:300px;
+  margin-left: 10px;
+
 
 }
 #aside-contact-form input{
@@ -176,6 +175,7 @@ height: 10%;
 #form-message-input{
   height: 25%;
   padding-bottom: 60px;
+  padding-top: 15px;
 }
 #aside-submit-button{
   display: block;
@@ -203,12 +203,39 @@ height: 10%;
 /*end of aside style */
 /*start of name section style*/
 #name{
-  background-color: gold;
   width: 50%;
   height:500px;
   text-align: center;
+  color: white;
+  margin-top: 43px;
+
+  
+ 
 
 }
+#name article{
+  height: 150px;
+  margin-right: 10px;
+  width:80%;
+  margin-left: 120px;
+  text-align: right;
+}
+#name-article-h1{
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #db294a;
+  
+
+  
+
+}
+#name-article-paragraph{
+  padding-top: 18px;
+
+}
+/* #name-social-media-container{
+
+} */
 /*end of name section style*/
 
 /* end of contact us section style */
