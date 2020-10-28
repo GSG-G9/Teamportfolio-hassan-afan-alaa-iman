@@ -90,3 +90,26 @@ width: 80%;
   justify-content: center;
   margin: 4rem;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-us-container{
+  text-align: center;
+  font-size: 2rem;
+
+  margin-top: 5rem;
+}
+
+.about-us-h1{
+  text-transform:uppercase;
+  margin: 2rem 0;
+  font-weight: 800;
+}
+
+.about-us-paragraph{
+  display: inline-block;
+  width: 80%;
+  text-align: justify;
+}
