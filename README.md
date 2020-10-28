@@ -4,6 +4,8 @@ You can view our website at this [Link](https://gsg-g9.github.io/Teamportfolio-h
 
 ### Purpose
 
+This Website highlight our best work and display accomplishments, skills and potential. It showcase examples of work - Services and our contact info.
+
 # What you will find here :-
 
 ### Services
@@ -22,7 +24,7 @@ You can here enter your name and email and a message and we will contact you as 
 
 You will find here a list of Expert people in our teams with all social links and also names - roles
 
-#How to Do this :-
+# How to Do this :-
 
 ### Ideas
 
