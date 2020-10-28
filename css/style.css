@@ -3,14 +3,19 @@
     margin: 0;
     padding: 0;
 }
-.h1-our-serv{
-	text-align: center;
-	padding-top: 30px;
 
-	
+#our-services{
+position: relative;
 }
 
-.serv-li {
+.our-services-h1{
+	text-align: center;
+	padding-top: 2rem;
+
+
+}
+
+.li-services {
 display: flex;
 justify-content: space-around;
 margin: auto;
@@ -18,29 +23,29 @@ width: 80%;
 
 }
 
-.serv {
-  padding-top: 80px;
-  padding-left: 20px;
+.services-div {
+  padding-top: 4rem;
+  padding-left: 1rem;
 	width: 30%;
 	text-align: center;
 }
 
 
-.h3-serv {
-  padding-top: 20px;
-	padding-bottom: 30px;
+.services-h3 {
+  padding-top: 1rem;
+	padding-bottom: 1rem;
 	
 }
 
 .fas{
-	font-size : 40px !important;
+	font-size : 2rem;
 	color:#e34f43;
 	
 
 } 
 
 .far{
-	font-size: 40px !important;
+	font-size: 2rem;
 	color:#e34f43;
 	
 
