@@ -28,7 +28,7 @@ You will find here a list of Expert people in our teams with all social links an
 
 ### Ideas
 
-We start in some sketch as in this photo :[photo](/img/design/1.jpeg)
+We start in some sketch as in this photo ![photo](/img/design/1.jpeg)
 
 ### Design
 
