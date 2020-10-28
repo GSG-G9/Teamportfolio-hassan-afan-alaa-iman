@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+html{
+  font-family: 'Rokkitt', serif;   
+}
+
+/* start of navbar style */
+nav{
+  background-color: black;
+  height: 68px;
+  line-height: 68px; /*same as the height of nav to align text vertically at center */
+  display:flex;
+  color: white;
+    
+
+}
+
+
+#logo-container{
+  width: 40%;
+  padding-left: 150px;
+  vertical-align: middle;
+  margin-right: 115px;
+}
+
+#logo-text{
+  font-family: 'Grenze Gotisch', cursive;
+
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#logo-text span{
+  color:  #db294a
+}
+
+#navbar-ul{
+  display: flex;
+  width: 35%;
+  list-style-type: none;
+
+}
+
+li{
+  margin-right: 45px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15.6px;
+}
+/* end of nav bar style */
+/* start of header style */
+
+header{
+  background-color: #63a8c7;
+  height:460px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-image: url("/home/iman/Desktop/Teamportfolio-hassan-afan-alaa-iman/img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  background-size: 100%;
+  opacity: 0.9; */
+
+
+}
+#header-img{
+  opacity: .8;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+#header-div{
+  font-size:20px;
+  height: 45%;
+  width: 40%;
+  position: absolute;
+  top: 38px;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+
+}
+
+#company-name-span{
+display: block;  
+width: 550px;
+height: 30px;
+margin: auto;
+margin-top: 12px;
+margin-bottom: 18px;
+font-weight: bold;
+font-family: 'Rokkitt', serif; /*for all*/
+font-size: 55px;
+padding-bottom: 45px;
+}
+
+#contact-us-button{
+  text-transform: uppercase;
+  margin-top: 30px;
+  width:125px;
+  height: 36px;
+  font-size: 16.5px;
+  color: white;
+  background-color: black
+  ;
+  border: none;
+  border-radius: 3.6px;
+  font-family: 'Rokkitt', serif;   
+  transition: all 1s ease-out;
+
+
+
+}
+
+#contact-us-button:hover{
+  background-color: #db294a
+
+
+}
+/* end of header style */
