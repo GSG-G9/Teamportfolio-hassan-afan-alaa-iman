@@ -1,9 +1,10 @@
-#Team Website :-
+# Team Website :-
+
 You can view our website at this [Link](https://gsg-g9.github.io/Teamportfolio-hassan-afan-alaa-iman/)
 
 ### Purpose
 
-#What you will find here :-
+# What you will find here :-
 
 ### Services
 
@@ -47,7 +48,7 @@ We divide our projects to 8 issues
 and our mentors divide us to work on it.
 we works in paris in 4-5,2 issues
 
-#Stretch Goals :-
+# Stretch Goals :-
 
 1. Making more css animation.
 2. Creating slider image in the header of projects.
@@ -55,7 +56,8 @@ we works in paris in 4-5,2 issues
 4. Add some effects to navbar with a flip background
 5. Make nicer design projects-services
 
-#USER STORIES :-
+# USER STORIES :-
+
 As a client looking to hire a team of developers
 
 > I want to visit your site and immediately see a headline about your team
