@@ -1,5 +1,97 @@
 *{
-<<<<<<< HEAD
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#our-services{
+position: relative;
+}
+
+.our-services-h1{
+	text-align: center;
+	padding-top: 2rem;
+
+
+}
+
+.li-services {
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 80%;
+
+}
+
+.services-div {
+  padding-top: 4rem;
+  padding-left: 1rem;
+	width: 30%;
+	text-align: center;
+}
+
+
+.services-h3 {
+  padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+
+.fas{
+	font-size : 2rem;
+	color:#e34f43;
+	
+
+} 
+
+.far{
+	font-size: 2rem;
+	color:#e34f43;
+	
+}
+
+.projects-div{
+	display: flex;
+	justify-content: center;
+}
+
+.projects-img{
+	max-width: 100%;
+}
+
+.projects-single{
+	width: 30%;
+	margin: 0 2rem;
+}
+
+.projects-h1{
+	text-align: center;
+}
+
+.projects-single-link{
+	display: inline-block;
+	width: 100%;
+}
+
+.projects-single-arrow{
+	float: right;
+}
+
+.projects-p{
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem;
+}
+*{
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -234,19 +326,7 @@ height: 10%;
   padding-top: 18px;
 
 }
-/* #name-social-media-container{
 
-} */
-/*end of name section style*/
-
-/* end of contact us section style */
-
-=======
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
 .about-us-container{
   text-align: center;
   font-size: 2rem;
@@ -265,4 +345,4 @@ height: 10%;
   width: 80%;
   text-align: justify;
 }
->>>>>>> b2adf2deaf9b924d068c30e4bbcfbab6b4c36a3e
+
