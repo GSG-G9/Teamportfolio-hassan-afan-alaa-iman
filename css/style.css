@@ -396,8 +396,16 @@ header{
   right: 0;
   left: 0;
   margin: auto;
+}
 
 
+@media (max-width:600px){
+  #header-div{
+    width: 100%;
+  }
+  #navbar-ul{
+    display: none;
+  }
 }
 
 #company-name-span{
