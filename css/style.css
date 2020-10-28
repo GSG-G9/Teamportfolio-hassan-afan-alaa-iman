@@ -1,14 +1,13 @@
 /* variables */
 *{
-  --white-background:white;
-  --black-background:black;
+  --overlay-color:#ff5ee1;
   --font-size-links:12px;
-  --opacity-value:0.4;
+  --opacity-value:0.70;
   --transition-time:0.3s;
   --overlay-transition-time:1s;
   --learn-more-transition-time:1s;
   --font-size-learn-more:14px;
-  --font-color-member-name:pink;
+  --font-color-member-name:#ff5ee1;
   
 
 }
@@ -41,7 +40,7 @@
 .team-members{
   height: 100%;
   width: 100%;
-  color:var(--white-background);
+  color:var(--overlay-color);
   display: flex;
 }
 
@@ -58,7 +57,16 @@
 
 .team-one-member-pic{
   max-width: 100%;
+  transition: right 1s ease;
+
 }
+
+.team-one-member:hover .team-one-member-pic{
+  position: relative;
+  right:-0.20rem;
+  width: 100%;
+}
+
 
 .team-one-member-overlay{
   position: absolute;
@@ -83,7 +91,7 @@
 
 .team-one-member-overlay::after{
   content: '';
-  background-color: var(--black-background);
+  background-color: var(--overlay-color);
   opacity: var(--opacity-value);
   position: absolute;
   top: 0;
@@ -122,7 +130,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.team-one-member-social-link:hover:before {
+.team-one-member-social-link:hover::before {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -133,11 +141,11 @@
   font-size: var(--font-size-learn-more);
   text-decoration: none;
   display: inline-block;
-  background-color:var(--black-background);
+  background-color:black;
   width: fit-content;
   height: 100%;
   padding: 1em;
-  color:inherit;
+  color:white;
   transition: all var(--learn-more-transition-time);
 }
 
@@ -146,7 +154,7 @@
   position: relative;
   top:50%;
   left:10%;
-  color:var(--white-background);
+  color:black;
 }
 
 
@@ -156,7 +164,7 @@
   right:0;
   width: 5%;
   height: 100%;
-  background-color:var(--white-background);
+  background-color:white;
   transition: width var(--learn-more-transition-time);
 }
 
