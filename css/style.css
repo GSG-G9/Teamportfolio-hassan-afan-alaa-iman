@@ -557,7 +557,8 @@ height: 10%;
 }
 
 #about-us{
-  height: 50vh;
+  height: auto;
+  padding: 2rem;
 }
 
 .about-us-container{
