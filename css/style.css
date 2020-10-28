@@ -46,11 +46,11 @@ nav{
 
 }
 
-li{
+.navbar-li{
   margin-right: 45px;
 }
 
-a{
+.navbar-a{
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -143,7 +143,7 @@ padding-bottom: 45px;
 
 }
 /*start of aside style */
-aside{
+#contact-us-section aside{
   width:50%;
 
   /* height:500px; */
@@ -202,7 +202,7 @@ height: 10%;
 }
 /*end of aside style */
 /*start of name section style*/
-#name{
+#contact-us-content{
   width: 50%;
   height:500px;
   text-align: center;
@@ -213,14 +213,14 @@ height: 10%;
  
 
 }
-#name article{
+#contact-us-content article{
   height: 150px;
   margin-right: 10px;
   width:80%;
   margin-left: 120px;
   text-align: right;
 }
-#name-article-h1{
+#contact-us-content-article-h1{
   font-size: 28px;
   text-transform: capitalize;
   color: #db294a;
@@ -229,7 +229,7 @@ height: 10%;
   
 
 }
-#name-article-paragraph{
+#contact-us-content-article-paragraph{
   padding-top: 18px;
 
 }
