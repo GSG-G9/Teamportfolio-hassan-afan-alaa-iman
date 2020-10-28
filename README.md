@@ -89,3 +89,29 @@ As a client looking to hire a team of developers
 > I want to easily view the site when browsing on my mobile, tablet or desktop
 
 > so that I can understand the sites content easily on whatever device I choose to view it in.
+
+# Our Stories :-
+
+Our User Stories in this journey :-
+
+## Alaa
+
+> At the begging the things wear not that clear , so I started looking for some examples of Developers Portfolio , I get the main idea , then we agreed about the processes that we should follow.
+> Thing were going easy to do the task and I had a free time to review my team tasks.
+> It was a nice thing to get a review from the team on GitHub and solve conflicts on it .
+> Also it was a complete happiness to apply everything We’ve learned this week in the project.
+
+## Hassan
+
+> I was waiting the project to work with a time and learn some professional things as a developers
+> It was my pleasure to do my tasks and get feedback from my team , it was intense to work under
+> pressure , but I like how we dealing with things as a team.
+
+## Iman
+
+> for me things were going easy to understand the processing of the project
+> but I faced some problems because I missed Afnan .
+
+## Afnan
+
+> As a team we hope she is find and everything going alright with her
