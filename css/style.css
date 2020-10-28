@@ -48,5 +48,45 @@ width: 80%;
 	font-size: 2rem;
 	color:#e34f43;
 	
+}
 
+.projects-div{
+	display: flex;
+	justify-content: center;
+}
+
+.projects-img{
+	max-width: 100%;
+}
+
+.projects-single{
+	width: 30%;
+	margin: 0 2rem;
+}
+
+.projects-h1{
+	text-align: center;
+}
+
+.projects-single-link{
+	display: inline-block;
+	width: 100%;
+}
+
+.projects-single-arrow{
+	float: right;
+}
+
+.projects-p{
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem;
 }
