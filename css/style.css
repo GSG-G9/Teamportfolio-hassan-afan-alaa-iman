@@ -224,3 +224,340 @@
   visibility: visible;
   transform: scaleX(1);
 }
+
+#our-services{
+position: relative;
+}
+
+.our-services-h1{
+	text-align: center;
+	padding-top: 2rem;
+
+
+}
+
+.li-services {
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 80%;
+
+}
+
+.services-div {
+  padding-top: 4rem;
+  padding-left: 1rem;
+	width: 30%;
+	text-align: center;
+}
+
+
+.services-h3 {
+  padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+
+.fas{
+	font-size : 2rem;
+	color:#e34f43;
+	
+
+} 
+
+.far{
+	font-size: 2rem;
+	color:#e34f43;
+	
+}
+
+.projects-div{
+	display: flex;
+	justify-content: center;
+}
+
+.projects-img{
+	max-width: 100%;
+}
+
+.projects-single{
+	width: 30%;
+	margin: 0 2rem;
+}
+
+.projects-h1{
+	text-align: center;
+}
+
+.projects-single-link{
+	display: inline-block;
+	width: 100%;
+}
+
+.projects-single-arrow{
+	float: right;
+}
+
+.projects-p{
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem;
+}
+
+
+html{
+  font-family: 'Rokkitt', serif;   
+}
+
+/* start of navbar style */
+nav{
+  background-color: black;
+  height: 68px;
+  line-height: 68px; /*same as the height of nav to align text vertically at center */
+  display:flex;
+  color: white;
+    
+
+}
+
+
+#logo-container{
+  width: 40%;
+  padding-left: 150px;
+  vertical-align: middle;
+  margin-right: 115px;
+}
+
+#logo-text{
+  font-family: 'Grenze Gotisch', cursive;
+
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#logo-text span{
+  color:  #db294a
+}
+
+#navbar-ul{
+  display: flex;
+  width: 35%;
+  list-style-type: none;
+
+}
+
+.navbar-li{
+  margin-right: 45px;
+}
+
+.navbar-a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15.6px;
+}
+/* end of nav bar style */
+/* start of header style */
+
+header{
+  background-color: #63a8c7;
+  height:460px;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-image: url("/home/iman/Desktop/Teamportfolio-hassan-afan-alaa-iman/img/annie-spratt-QckxruozjRg-unsplash.jpg");
+  background-size: 100%;
+  opacity: 0.9; */
+
+
+}
+#header-img{
+  opacity: .8;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+#header-div{
+  font-size:20px;
+  height: 45%;
+  width: 40%;
+  position: absolute;
+  top: 38px;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+
+}
+
+#company-name-span{
+display: block;  
+width: 550px;
+height: 30px;
+margin: auto;
+margin-top: 12px;
+margin-bottom: 18px;
+font-weight: bold;
+font-family: 'Rokkitt', serif; /*for all*/
+font-size: 55px;
+padding-bottom: 45px;
+}
+
+#contact-us-button{
+  text-transform: uppercase;
+  margin-top: 30px;
+  width:125px;
+  height: 36px;
+  font-size: 16.5px;
+  color: white;
+  background-color: black
+  ;
+  border: none;
+  border-radius: 3.6px;
+  font-family: 'Rokkitt', serif;   
+  transition: all 1s ease-out;
+
+
+
+}
+
+#contact-us-button:hover{
+  background-color: #db294a
+
+
+}
+/* end of header style */
+/* start of contact us section style */
+#contact-us-section{
+  background-color: black;
+  width: 100%;
+  height:350px;
+  display: flex;
+  flex-direction: row-reverse;
+
+
+}
+/*start of aside style */
+#contact-us-section aside{
+  width:50%;
+
+  /* height:500px; */
+}
+#aside-contact-form{
+  padding-top: 40px;
+  color: white;
+  width:400px;
+  height:300px;
+  margin-left: 10px;
+
+
+}
+#aside-contact-form input{
+  display: block;
+  width: 90%;
+  background-color: black;
+  border: white solid .7px;
+  border-radius: 2.5px;
+  padding-left: 17px;
+  margin-top: 8px;
+
+}
+#form-email-input, #form-name-input{
+height: 10%;
+
+
+}
+#form-message-input{
+  height: 25%;
+  padding-bottom: 60px;
+  padding-top: 15px;
+}
+#aside-submit-button{
+  display: block;
+  background-color: #db294a;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 3.6px;
+  font-family: 'Rokkitt', serif;   
+  transition: all 1s ease-out;
+  width: 90%;
+  height: 42px;
+  line-height: 42px;
+  margin-top: 15px;
+  text-align: center;
+
+  
+}
+#aside-submit-button:hover{
+  background-color: black;
+
+
+}
+/*end of aside style */
+/*start of name section style*/
+#contact-us-content{
+  width: 50%;
+  height:500px;
+  text-align: center;
+  color: white;
+  margin-top: 43px;
+
+  
+ 
+
+}
+#contact-us-content article{
+  height: 150px;
+  margin-right: 10px;
+  width:80%;
+  margin-left: 120px;
+  text-align: right;
+}
+#contact-us-content-article-h1{
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #db294a;
+  
+
+  
+
+}
+#contact-us-content-article-paragraph{
+  padding-top: 18px;
+
+}
+
+.about-us-container{
+  text-align: center;
+  font-size: 2rem;
+
+  margin-top: 5rem;
+}
+
+.about-us-h1{
+  text-transform:uppercase;
+  margin: 2rem 0;
+  font-weight: 800;
+}
+
+.about-us-paragraph{
+  display: inline-block;
+  width: 80%;
+  text-align: justify;
+}
+
