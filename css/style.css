@@ -8,8 +8,6 @@
   --learn-more-transition-time:1s;
   --font-size-learn-more:14px;
   --font-color-member-name:#ff5ee1;
-  
-
 }
 .container{
   margin: 1em 5%;
@@ -324,7 +322,11 @@ nav{
   line-height: 68px; /*same as the height of nav to align text vertically at center */
   display:flex;
   color: white;
-    
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 1;    
 
 }
 
@@ -375,11 +377,6 @@ header{
   color: white;
   background-repeat: no-repeat;
   position: relative;
-  /* background-image: url("/home/iman/Desktop/Teamportfolio-hassan-afan-alaa-iman/img/annie-spratt-QckxruozjRg-unsplash.jpg");
-  background-size: 100%;
-  opacity: 0.9; */
-
-
 }
 #header-img{
   opacity: .8;
@@ -545,7 +542,6 @@ height: 10%;
 .about-us-container{
   text-align: center;
   font-size: 2rem;
-
   margin-top: 5rem;
 }
 
@@ -557,7 +553,32 @@ height: 10%;
 
 .about-us-paragraph{
   display: inline-block;
-  width: 80%;
+  width: 60%;
   text-align: justify;
+  font-size: 1rem;
 }
 
+.footer{
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100vw;
+  height: 3em;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #ff5ee1;
+}
+
+.footer-p{
+  color:white;
+}
+
+.footer-contact-us-link{
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+  font-size: 1.2em;
+}
